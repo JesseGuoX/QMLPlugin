@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # set(CMAKE_PREFIX_PATH "/Users/jg/Qt6/5.15.2/clang_64/lib/cmake/")
 set(CMAKE_PREFIX_PATH "/Users/jg/Qt6/6.2.4/macos/lib/cmake/")
+
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick Qml REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick QuickControls2 REQUIRED)
 
