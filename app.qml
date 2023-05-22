@@ -1,6 +1,8 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-import User.Register 1.0
+import User.Register 1.0 
+
+import Company.Controls 0.1
 
 ApplicationWindow {
     id: window
@@ -55,6 +57,9 @@ ApplicationWindow {
                 fieldLastName.text = ""
                 fieldNickname.text = ""
             }
+        }
+        CompanyBaseButton{
+
         }
     }
 }

@@ -10,6 +10,11 @@
 
 Now the plugin is ready and installed in the `./build/qml` dictionary.
 
-## How to use the plugin in QML
-1. ` export QML2_IMPORT_PATH=/XXXX/QMLPlugin/build/qml:$QML2_IMPORT_PATH`
-2. `qml app.qml` or `qmlscene app.qml` will launch the app(`qml` or `qmlscene` is in the directory of Qt installation).
+ ~~## How to use the plugin in QML~~
+
+~~1. ` export QML2_IMPORT_PATH=/XXXX/QMLPlugin/build/qml:$QML2_IMPORT_PATH`~~
+~~2. `qml app.qml` or `qmlscene app.qml` will launch the app(`qml` or `qmlscene` is in the directory of Qt installation).~~
+ 
+## run the app 
+
+ `./build/app`

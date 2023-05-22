@@ -2,7 +2,7 @@
 
 #include <QObject>
 #include <QString>
-
+#include <QQmlEngine>
 class Register : public QObject
 {
     Q_OBJECT
@@ -22,6 +22,14 @@ public:
 
     const QString& getNickname() const;
     void setNickname(const QString& newNickname);
+
+    static QObject* qmlInstance(QQmlEngine *engine, QJSEngine *scriptEngine)
+    {
+        Q_UNUSED(engine);
+        Q_UNUSED(scriptEngine);
+
+        return new Register;
+    }
 
 signals:
     void firstNameChanged();

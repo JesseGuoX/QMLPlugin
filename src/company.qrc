@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Company/qmldir</file>
+        <file>Company/Controls/CompanyBaseButton.qml</file>
+        <file>Company/Controls/qmldir</file>
+    </qresource>
+</RCC>

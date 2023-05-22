@@ -1,0 +1,4 @@
+module Company.Controls
+
+CompanyBaseButton 0.1 CompanyBaseButton.qml
+
